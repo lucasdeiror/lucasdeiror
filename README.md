@@ -9,7 +9,7 @@
 I'm a Full Stack Developer and Computer Science student at UNIT, focused on building real-world applications with an emphasis on software architecture, backend development, data integrity, and security. I develop and maintain a commercial management system used in a real retail operation and contribute to collaborative software projects involving scalable architectures, database design, and automated testing.
 
 ### 💼 Current Role
-**Technical Support Intern (N1)** — Senac Sergipe
+**FullStack Developer** — Senac Sergipe
 
 ### Technologies & Tools
 
