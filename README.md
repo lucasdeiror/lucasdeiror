@@ -1,119 +1,113 @@
 <h1 align="center">Lucas Deiró Rodrigues</h1>
 
-<p align="center">
-  🚀 <b>Desenvolvedor Full Stack</b> · 📚 Ciência da Computação (UNIT) · 📍 Aracaju - SE<br>
-  <i>Foco em sistemas com alta integridade, arquitetura limpa e software em produção real.</i>
-</p>
+<h3 align="center">Full Stack Developer | Computer Science Student</h3>
 
 <p align="center">
-  <a href="https://linkedin.com/in/lucas-deiró-rodrigues-b6176137b">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:lucasdeiror@gmail.com">
-    <img src="https://img.shields.io/badge/Email-lucasdeiror%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  📍 Aracaju, Brazil
 </p>
 
 ---
 
-## 🧠 Sobre mim
+### 👨‍💻 About Me
 
-Construo software voltado para o mundo real, com foco obsessivo em **estabilidade operacional, integridade e regras de negócio sólidas**. Já mantenho um sistema proprietário em uso diário por uma operação de varejo e estou desenvolvendo a infraestrutura de um SaaS multi-tenant.
+I'm Lucas Deiró Rodrigues, a Full Stack Developer and Computer Science student at UNIT, based in Aracaju, Brazil. I focus on building real-world applications with an emphasis on software architecture, backend development, data integrity, and security. I have experience developing and maintaining a commercial management system currently used in a retail operation, as well as contributing to collaborative software projects involving scalable architectures, database design, and automated testing. I'm continuously improving my engineering skills through practical projects and hands-on experience.
 
-* 💼 **Estagiário de Suporte Técnico N1** no **Senac Sergipe**.
-* 🎓 **Residência de Software (UNIT)**: Atuação prática em times ágeis multidisciplinares, liderança de front-end, versionamento rigoroso e entrega contínua.
-* 🛠️ **Engenharia com Spec-Driven Development (SDD)**: Utilizo inteligência artificial de ponta no meu fluxo de trabalho não para terceirizar o raciocínio, mas como acelerador de execução estritamente guiado por especificações formais (`spec → design → tasks`), sempre auditando a arquitetura, segurança e integridade do código gerado.
-* ☕ **Trilha Java & Fundamentos**: Aprofundo ativamente **Core Java (JDK 21/25)** e **Clean Architecture** (estruturas de dados, streams, generics, tratamento funcional de exceções e concorrência) antes de delegar abstrações para o ecossistema Spring Boot.
+### 💼 Current Role
+- **Technical Support Intern (N1)** — Senac Sergipe
 
----
+### 🛠️ Technologies & Tools
 
-## 🛠️ Tecnologias & Competências
+#### Languages & Frameworks
 
-| Camada | Stack & Ferramentas |
-| :--- | :--- |
-| **Linguagens** | TypeScript, Java (JDK 21/25), JavaScript, SQL, Python |
-| **Front-end** | React, Next.js (App Router), Vite, Tailwind CSS, shadcn/ui, Design Systems |
-| **Back-end** | Node.js (Serverless & Fastify), Server Actions, REST APIs, Clean Architecture |
-| **Bancos de Dados** | PostgreSQL (RLS, PL/pgSQL, Triggers, Constraints), Supabase, MySQL, Redis |
-| **Testes & Qualidade** | Vitest, Playwright, pgTAP (testes no banco), PGlite, pytest |
-| **DevOps & Métodos** | Git/GitHub (PRs, Code Review), Docker, Vercel, Linux, Spec-Driven Development |
-
----
-
-## 📂 Projetos em Destaque
-
-### 💎 Produção & Engenharia de Impacto
-
-* **Gestão Gabi Modas** *(Proprietário · Em Produção Real)*
-  Sistema completo de gestão comercial para varejo de moda, desenhado para operação ágil de balcão mobile e split-screen desktop.
-  * **Engenharia & Concorrência:** Vendas atômicas protegidas por trava de concorrência (`comLock` transacional), impedindo que acessos simultâneos vendam a mesma peça.
-  * **Finanças & Negócio:** Controle de fiado parcelado em até 12x com abatimento inteligente (FIFO), fluxo de caixa, controle de estoque por grade, etiquetas e relatórios em PDF/CSV.
-  * **Segurança:** RBAC no servidor com verificação de papéis por requisição, sessão em cookies `httpOnly`, rate limiting e isolamento de schema (`loja`).
-  * **Stack:** React 19, Vite, Tailwind v4, Node.js serverless na Vercel e PostgreSQL (Supabase).
-
-* **Nexo — Sistema de Gestão** *(Em Desenvolvimento)*
-  SaaS multi-tenant focado em eliminar a ociosidade operacional e o capital morto em pequenos comércios (barbearias, varejo e petshops).
-  * **Isolamento Rígido:** Multi-tenancy respaldado por políticas de Row Level Security (RLS) no PostgreSQL e RBAC granular.
-  * **Tolerância a Falhas Comprovada:** Mutação de caixa e estoque blindada por funções atômicas em PL/pgSQL; viabilidade comprovada com **95 testes pgTAP**, teste de concorrência simultânea (20 vendas para 10 peças sem saldo negativo) e estresse com 300.000 transações.
-  * **Arquitetura:** Modular Hexagonal Lite (domínio 100% desacoplado de frameworks e UI) com Next.js 16, React 19, Supabase e Vitest.
-
----
-
-### 🎓 Experiência Acadêmica & Projetos de Residência
-
-* **MarcaSE (Residência de Software I — UNIT)**
-     * **Papel:** Líder Técnico de Front-end (React, Next.js, TypeScript).
-     • O problema:O absenteísmo(faltas).Em clínicas médicas, o agendamento costuma ser descentralizado e caótico: a recepção fica    
-  sobrecarregada com ligações e mensagens de WhatsApp, médicos sofrem com furos na agenda por faltas de pacientes
-  (no-show) ou atrasos em cascata, e o financeiro tem dificuldade de conciliar o que foi de fato atendido.
-  • Nossa Solução: Centralizamos a jornada clínica em uma única plataforma com controle de acesso rigoroso por
-  perfil. O paciente agenda de forma prática, a recepção gerencia a sala de espera sem se perder em
-  planilhas, o médico foca apenas no atendimento e a gestão passa a enxergar em tempo real a taxa de ocupação dos
-  consultórios, o tempo médio de espera e as perdas financeiras por ausências.
-     * **Arquitetura & Engenharia:** Liderança na padronização da arquitetura do client, definindo contratos de
-     dados, design system modular e fluxos protegidos por RBAC (*Role-Based Access Control*) com múltiplos níveis
-     de permissão (médicos, financeiro, recepção e pacientes).
-     * **Entregas-Chave:** Desenvolvimento de dashboards operacionais e financeiros em tempo real (taxas de
-     ocupação, no-show, fluxo de caixa e tempo médio de espera) e interface orientada a acessibilidade e fluxo
-     clínico ágil, reduzindo atritos no agendamento e triagem.
-
-* **Plataforma de ODR — Online Dispute Resolution (Residência de Software II — UNIT)**
-     * **Papel:** Engenheiro de Back-end (Node.js, Fastify, TypeScript, Redis e LLMs).
-     * • O problema: A resolução de conflitos de consumo e pequenas causas judiciais é lenta, burocrática e cara  
-         para todas as partes. Uma disputa simples sobre cobrança indevida ou cancelamento de serviço pode levar meses
-         parada em varas judiciais ou em SACs ineficientes. Além disso, mediadores e advogados gastam horas lendo
-         petições longas e repetitivas apenas para propor acordos que poderiam ser padronizados.
-       • Nossa Solução: Criamos um ambiente digital seguro para mediação de acordos entre empresas e clientes antes
-       que a disputa vire um processo judicial demorado. A plataforma recebe as alegações das duas partes e utiliza
-       rotinas com modelos de linguagem (IA) para ler e resumir os pontos de divergência, sugerindo minutas de acordo
-       prévias para que uma negociação que duraria meses seja resolvida em poucos dias com validade jurídica.  
-     * **Arquitetura & Engenharia:** Back-end de alto *throughput* e baixa latência baseado em *schema-first*
-       (Fastify), com isolamento estrito de dados sob arquitetura multi-tenant para câmaras de mediação e clientes
-       corporativos.
-       * **Infraestrutura & IA:** Autenticação stateless via JWT com rotação de chaves; camada de cache distribuído
-       e controle de concorrência com Redis; e pipeline assíncrono para orquestração de IA voltado à sumarização de
-       petições/disputas, extração de cláusulas e triagem automatizada de acordos.
----
-
-### 🧪 Portfólio de Fundamentos & Core Java
-
-* **[Dashboard de Localização e Clima](https://github.com/lucasrodrigues-bit/consumo-api-dashboard-localizacao)** *(Java Puro)*
-  * Agregação e orquestração de múltiplas APIs REST públicas (clima, câmbio, feriados nacionais e geolocalização) a partir de CEP, IP ou cidade.
-  * Implementado com `java.net.http.HttpClient` nativo do JDK, Gson e mapeamento em camadas (DTOs → Domain Models), com suporte a consultas paralelas assíncronas.
-* **[Sistema de Estoque CLI](https://github.com/lucasrodrigues-bit/sistema-de-estoque)** *(Java 25 Puro)*
-  * Aplicação de console para fixação rigorosa dos pilares de **Core Java**: *Collections Framework*, Generics, Streams API, Records, Optionals e hierarquia de exceções de domínio customizadas, estruturado sob os preceitos de Clean Architecture (camada `core` 100% isolada).
-
----
-
-## 🎯 Foco e Próximos Passos
-
-* Aprofundamento no ecossistema **Java corporativo e Spring Boot** (Spring Data JPA, Spring Security, Flyway).
-* Evolução da esteira de automação do Nexo até a validação comercial com os primeiros estabelecimentos parceiros.
-
----
-
-## 📊 Estatísticas do GitHub
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=lucasrodrigues-bit&theme=tokyonight&starting_year=2025&cache_seconds=3600" alt="GitHub Streak" />
+<p>
+  <img src="https://skillicons.dev/icons?i=java,typescript,javascript,python,react,nextjs,vite,tailwind,nodejs" />
 </p>
+
+#### Databases & Infrastructure
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,mysql,redis,docker,vercel" />
+</p>
+
+#### Development & Testing
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50" />
+  <img src="https://github.com/user-attachments/assets/f84a0b87-5a5c-4be3-8711-1abe8d24ebdc" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" width="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original-wordmark.svg" width="50" />
+  
+</p>
+
+### AI-Assisted Development
+
+I integrate AI into my software engineering workflow to improve development efficiency, maintain code quality, and manage complex projects.
+
+Engineering Methodology:Spec-Driven Development (SDD) - Structured workflows based on specifications, technical design, and task decomposition (spec → design → tasks).
+
+Framework: BMAD Method (Breakthrough Method for Agile AI-Driven Development) - using to structure AI-driven software development through specialized agents, defined workflows, and collaborative planning.
+
+AI Agent Orchestration: Coordinating multiple AI agents to support development, code analysis, and problem-solving.
+
+Architecture & Code Review: Using AI to assist with architectural decisions, code reviews, and identifying potential security and data integrity issues.
+
+Human Oversight: Reviewing, validating, and testing AI-generated implementations to ensure correctness, maintainability, and alignment with project requirements.
+
+<h5 align="left">📩Let's Connect: </h5>
+<a href="https://www.instagram.com/lucasdrodrigues_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/lucas-d-b6176137b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="lucasdeiror@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" href""></a>
+<a href=""><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+
+
+
+### 🚀 Featured Projects
+
+#### 🏪 Gestão Gabi Modas
+**Commercial Management System | Production**
+
+A commercial management platform developed for a real retail operation, supporting daily sales, inventory, and financial workflows across desktop and mobile devices.
+
+- Transactional sales and inventory management.
+- Installment-based customer credit management.
+- Cash flow and financial operations.
+- Role-based access control and database security.
+
+**Stack:** React, TypeScript, Vite, Tailwind CSS, Node.js, PostgreSQL, Supabase.
+
+---
+
+#### 🏥 MarcaSE
+**Healthcare Management Platform | Software Residency — UNIT**
+
+A healthcare management platform designed to improve clinic operations and reduce missed appointments through scheduling, patient management, and operational dashboards.
+
+- Appointment and reception workflows.
+- Role-based access for doctors, receptionists, and financial staff.
+- Operational dashboards and design system development.
+- Technical leadership in frontend development.
+
+**Stack:** React, Next.js, TypeScript.
+
+---
+
+#### ⚖️ ODR — Online Dispute Resolution
+**Conflict Resolution Platform | Software Residency — UNIT**
+
+A platform designed to facilitate the resolution of consumer disputes, incorporating AI-assisted analysis to summarize disagreements and suggest agreement drafts.
+
+- Backend development and API architecture.
+- AI integration for dispute analysis.
+- Multi-tenant architecture and authentication.
+- Redis integration and structured data contracts.
+
+**Stack:** Node.js, Fastify, TypeScript, Redis, LLMs.
+
+---
+
+### 📊 GitHub Statistics
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=lucasrodrigues-bit&theme=tokyonight&hide_border=true" />
+</div>
