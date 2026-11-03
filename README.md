@@ -60,52 +60,6 @@ Human Oversight: Reviewing, validating, and testing AI-generated implementations
 <a href="lucasdeiror@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" href""></a>
 <a href=""><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
 
-
-
-### 🚀 Featured Projects
-
-#### 🏪 Gestão Gabi Modas
-**Commercial Management System | Production**
-
-A commercial management platform developed for a real retail operation, supporting daily sales, inventory, and financial workflows across desktop and mobile devices.
-
-- Transactional sales and inventory management.
-- Installment-based customer credit management.
-- Cash flow and financial operations.
-- Role-based access control and database security.
-
-**Stack:** React, TypeScript, Vite, Tailwind CSS, Node.js, PostgreSQL, Supabase.
-
----
-
-#### 🏥 MarcaSE
-**Healthcare Management Platform | Software Residency — UNIT**
-
-A healthcare management platform designed to improve clinic operations and reduce missed appointments through scheduling, patient management, and operational dashboards.
-
-- Appointment and reception workflows.
-- Role-based access for doctors, receptionists, and financial staff.
-- Operational dashboards and design system development.
-- Technical leadership in frontend development.
-
-**Stack:** React, Next.js, TypeScript.
-
----
-
-#### ⚖️ ODR — Online Dispute Resolution
-**Conflict Resolution Platform | Software Residency — UNIT**
-
-A platform designed to facilitate the resolution of consumer disputes, incorporating AI-assisted analysis to summarize disagreements and suggest agreement drafts.
-
-- Backend development and API architecture.
-- AI integration for dispute analysis.
-- Multi-tenant architecture and authentication.
-- Redis integration and structured data contracts.
-
-**Stack:** Node.js, Fastify, TypeScript, Redis, LLMs.
-
----
-
 ### 📊 GitHub Statistics
 
 <div align="center">
