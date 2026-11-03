@@ -40,7 +40,7 @@ I'm Lucas Deiró Rodrigues, a Full Stack Developer and Computer Science student 
   
 </p>
 
-### AI-Assisted Development
+### AI Applied
 
 I integrate AI into my software engineering workflow to improve development efficiency, maintain code quality, and manage complex projects.
 
