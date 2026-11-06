@@ -22,7 +22,7 @@ I'm a Full Stack Developer and Computer Science student at UNIT, focused on buil
 **Databases & Infrastructure**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,supabase,mysql,redis,docker,vercel" />
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,mysql,docker,vercel" />
 </p>
 
 **Development & Testing**
