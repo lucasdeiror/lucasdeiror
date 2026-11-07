@@ -49,10 +49,14 @@ I integrate AI into my engineering workflow to improve productivity while mainta
 ### 📩 Let's Connect
 
 <p>
+  <a href="https://lucasdeirodev.vercel.app/">
+    <img src="./logo_ld.svg" alt="Portfólio" width="30">
+  </a>
   <a href="https://www.instagram.com/lucasdrodrigues_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/lucas-d-b6176137b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:lucasdeiror@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
+
 
 ### 📊 GitHub Statistics
 
