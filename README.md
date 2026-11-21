@@ -61,6 +61,6 @@ I integrate AI into my engineering workflow to improve productivity while mainta
 ### 📊 GitHub Statistics
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=lucasdeiror&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=lucasdeiror&theme=tokyonight&hide_border=false" />
 </div>
   
