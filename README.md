@@ -23,6 +23,7 @@ I'm a Full Stack Developer and Computer Science student at UNIT, focused on buil
 
 <p>
   <img src="https://skillicons.dev/icons?i=postgres,supabase,mysql,docker" />
+   <img src="https://skillicons.dev/icons?i=nginx" />
 </p>
 
 **Development & Testing**
@@ -33,7 +34,6 @@ I'm a Full Stack Developer and Computer Science student at UNIT, focused on buil
   <img src="https://github.com/user-attachments/assets/f84a0b87-5a5c-4be3-8711-1abe8d24ebdc" width="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original-wordmark.svg" width="50" />
-  <img src="https://skillicons.dev/icons?i=nginx" />
   
 </p>
 
